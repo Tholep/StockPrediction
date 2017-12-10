@@ -1,3 +1,4 @@
+#This file is to fetch both price data and technical data of a specified stock by leveraging alpahavantage API
 import pandas as pd
 import urllib, json
 def FetchDailyData(equity,export=False):
